@@ -14,7 +14,7 @@ if [ "$1" != "add" ]  && [ "$1" != "delete" ]; then
 fi
 
 if [ "$1" == "delete" ]; then
-    ROUTE_GW="gw `156.154.70.1`"
+    ROUTE_GW=""
 fi
 
 OPS=$1
